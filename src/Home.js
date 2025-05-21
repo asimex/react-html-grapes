@@ -4,11 +4,15 @@ import HtmlCard from "./components/HtmlCard";
 import Editor from "./Editor";
 
 const htmlFiles = [
-  { name: "Homepage", file: "home.html" },
+  { name: "Homepage", file: "index.html" },
   { name: "About", file: "about.html" },
   { name: "Contact", file: "contact.html" },
-  { name: "Dashboard", file: "dashboard.html" },
-  { name: "Product", file: "products.html" },
+  { name: "Product", file: "product.html" },
+  { name: "Login", file: "login.html" },
+  { name: "Register", file: "register.html" },
+  {name:"Cart", file:"cart.html"},
+  {name:"Checkout", file:"checkout.html"},
+ 
 ];
 
 function Home() {

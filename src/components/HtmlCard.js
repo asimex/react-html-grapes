@@ -51,18 +51,21 @@ const HtmlCard = ({ title, src, onClick }) => {
           background: "white",
         }}
       >
-        <iframe
-          src={src}
-          title={title}
-          style={{
-            transform: "scale(0.5)",
-            transformOrigin: "top left",
-            width: "200%",
-            height: "400px",
-            border: "none",
-            pointerEvents: "none",
-          }}
-        ></iframe>
+     <iframe
+  src={src}
+  title={title}
+  loading="lazy"
+  sandbox=""
+  style={{
+    transform: "scale(0.5)",
+    transformOrigin: "top left",
+    width: "200%",
+    height: "400px",
+    border: "none",
+    pointerEvents: "none",
+  }}
+></iframe>
+
       </div>
     </div>
   );
